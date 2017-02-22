@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Built-By: cc.cloudjourney
+Build-Jdk: 1.8
+Created-By: Apache Maven
+Main-Class: cc.cloudjourney.ec2dashboard.application.Application
+Archiver-Version: Plexus Archiver

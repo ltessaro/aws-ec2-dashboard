@@ -5,8 +5,9 @@ A couple of weeks ago <a href='https://aws.amazon.com/about-aws/whats-new/2017/0
 
 Right now it is possible to attach or remove roles on existing EC2 instances, via CLI or SDK.
 
-I created this dashboard as a MVP to help my infrastructure team to udpate and attach roles to existing AWS EC2 instances.
-Feel free to use, fork or update it.
+So, I decided to created a dashboard (as a MVP) to help my infrastructure team to udpate and attach roles to existing AWS EC2 instances.
+
+Feel free to use, fork and update it.
 
 ### Requirements
 - **Java 8**: if you are using current Amazon Linux AMI 2016.09.1, you must update it.

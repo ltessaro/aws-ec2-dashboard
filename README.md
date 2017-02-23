@@ -7,6 +7,8 @@ Right now it is possible to attach or remove roles on existing EC2 instances, vi
 
 So, I decided to created a dashboard (as a MVP) to help my infrastructure team to udpate and attach roles to existing AWS EC2 instances.
 
+![EC2 Dashboard screen](https://s3.amazonaws.com/cloudjourney/dashboard_screen.png)
+
 Feel free to use, fork and update it.
 
 ### Requirements
@@ -25,6 +27,10 @@ sudo yum remove java-1.7.0-openjdk -y
 - Only see EC2 instances from installed Region.
 
 ### Much easier
-If you want to use it, make sure you test it first on a different Region, just to make sure it really helps you.
+If you want to use it, but you dont want to build it and configure anything on the EC2 instance, you can use an AMI image.
 
 There is a Community AMI named: "EC2 - Dashboard - cloudjourney.cc - Beta", just search for it and setup Security Group and IAM Role as describled on requirements.
+
+![EC2 Community AMI](https://s3.amazonaws.com/cloudjourney/AMI_screen.png)
+
+**Make sure you test it first on a different region, just to make sure it really helps you.**

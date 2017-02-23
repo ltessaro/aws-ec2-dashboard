@@ -24,6 +24,7 @@ sudo yum remove java-1.7.0-openjdk -y
 ### Running it
 1. First of all you should build it as any maven project. The final artifact is a jar file.
 2. Run it as any jar file: ``` java -jar cc.cloudjourney.ec2dashboard-0.0.1-SNAPSHOT-jar-with-dependencies.jar ```
+3. It is going to be available on http://public_dns`:4567
 
 ### Limitations
 - There is no cache yet, so any refresh is calling the AWS API again.
@@ -32,7 +33,6 @@ sudo yum remove java-1.7.0-openjdk -y
 
 ### Much easier
 If you want to use it right now, but you dont want to build it and configure anything on the EC2 instance, you can use an AMI image.
-
 There is a Community AMI named: "EC2 - Dashboard - cloudjourney.cc - Beta", just search for it and setup Security Group and IAM Role as describled on requirements.
 
 ![EC2 Community AMI](https://s3.amazonaws.com/cloudjourney/AMI_screen.png)

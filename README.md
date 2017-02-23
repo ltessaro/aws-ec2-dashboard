@@ -17,6 +17,7 @@ sudo yum remove java-1.7.0-openjdk -y
 ```
 - **Security Group**: using Custom TCP Rule and port range: 4567 (if you keep the current port).
 - **IAM Role**: this application must IAMFullAccess and AmazonEC2FullAccess policies attached.
+- **Instance Type and storage**: at least t2.micro and 8Gb.
 
 ### Limitations
 - There is no cache yet, so any refresh is calling the AWS API again.

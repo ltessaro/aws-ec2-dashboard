@@ -31,7 +31,7 @@ sudo yum remove java-1.7.0-openjdk -y
 - There is no user/password for this dashboard, make sure you setup a security group which allows only your IP.
 - Only see EC2 instances from installed Region.
 
-### Much easier
+### Much easier - Sorry, since June this options is not available anymore.
 If you want to use it right now, but you dont want to build it and configure anything on the EC2 instance, you can use an AMI image.
 There is a Community AMI named: "EC2 - Dashboard - cloudjourney.cc - Beta", just search for it and setup Security Group and IAM Role as describled on requirements.
 
